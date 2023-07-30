@@ -16,7 +16,7 @@ function Sidebar({ isVisible, toggleSidebar }) {
               <Link to="/">Home cnbuddy 主页</Link>
             </li>
             <li>
-              <Link to="/cnbuddy-delegator">cnbuddy-Delagator 代理名单查询</Link>
+              <Link to="/cnbuddy-delegator">cnbuddy-Delegator 代理名单查询</Link>
             </li>
             <li>
               <Link to="/buddy-forever-intro">buddy-forever Introduction 介绍</Link>
