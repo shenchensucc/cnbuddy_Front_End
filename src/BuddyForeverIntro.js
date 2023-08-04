@@ -21,6 +21,13 @@ function BuddyForeverIntro() {
          cnbuddy 介绍 (Introduction)
          </Link>
       </p>
+
+      <h3>buddy-forever 点赞名单 (Voting list of buddy-forever):</h3>
+      <p>
+         <Link to="/buddy-forever-voting">
+         cnbuddy 介绍 (Introduction)
+         </Link>
+      </p>
     </div>
   );
 }

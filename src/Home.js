@@ -25,6 +25,13 @@ function Home() {
               buddy-forever 介绍
             </Link>
           </p>
+
+          <h3>cnbuddy 点赞名单 (Voting list of cnbuddy):</h3>
+      <p>
+         <Link to="/cnbuddy-delegator">
+         cnbuddy 代理名单 (Delegator)
+         </Link>
+      </p>
       </ol>
     </div>
   );
