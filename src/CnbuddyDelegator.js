@@ -51,13 +51,14 @@ function CnbuddyDelegator() {
 
   return (
     <div>
-      <h1>The List of Delegator</h1>
+      <h1>cnbuddy代理名单</h1>
+      <h2>The List of Delegator</h2>
       <table className='table'>
         <thead className='thead-light'>
           <tr>
-            <th onClick={() => handleSort('delegator')}>Delegator</th>
-            <th onClick={() => handleSort('vests')}>SP-Delegated</th>
-            <th onClick={() => handleSort('time')}>Time</th>
+            <th onClick={() => handleSort('delegator')}>股东/Delegator</th>
+            <th onClick={() => handleSort('vests')}>代理SP/SP-Delegated</th>
+            <th onClick={() => handleSort('time')}>代理时间/Time</th>
           </tr>
         </thead>
         <tbody>

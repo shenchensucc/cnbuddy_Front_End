@@ -38,3 +38,35 @@
   left: 10px;
   z-index: 1;
 }
+
+/* In a CSS file or a styled-components style definition */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+.table th {
+  background-color: navy; /* Change background color to navy */
+  color: white;
+  cursor: pointer;
+  padding: 16px; /* Increase padding for a larger header */
+  text-align: center;
+}
+
+.table th:hover {
+  background-color: #0056b3;
+}
+
+.table td {
+  background-color: white;
+  padding: 8px;
+  border: 1px solid #ddd;
+  vertical-align: middle; /* Center content vertically */
+  text-align: center; /* Center content horizontally within cells */
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
