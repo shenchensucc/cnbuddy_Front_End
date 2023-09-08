@@ -29,7 +29,7 @@
 }
 
 .content.expanded {
-  margin-left: 0px;
+  margin-left: -250px;
 }
 
 .toggle-button {
