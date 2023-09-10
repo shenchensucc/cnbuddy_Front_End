@@ -50,6 +50,9 @@ function CnbuddyDelegator() {
   };
 
   return (
+    <head>
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+    </head>
     <div>
       <h1>cnbuddy代理名单</h1>
       <h2>The List of Delegator</h2>
