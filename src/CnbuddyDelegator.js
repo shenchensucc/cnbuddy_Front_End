@@ -12,7 +12,7 @@ function CnbuddyDelegator() {
 
   const fetchData = () => {
     axios
-      .get('https://185.234.69.161:5000/cnbuddy-delegator')
+      .get('http://185.234.69.161:5000/cnbuddy-delegator')
       .then((response) => {
         setDelegator(response.data);
       })
